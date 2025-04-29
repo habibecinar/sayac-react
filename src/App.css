@@ -41,16 +41,15 @@
   color: #888;
 }
 
-button{
+button {
   padding: 10px 20px;
- margin: 10px;
- background-color:  #4CAF50; /* yeşil */
-  color: white;;
+  margin: 10px;
+  background-color: #4caf50; /* yeşil */
+  color: white;
   border: none;
- border-radius: 5px;
+  border-radius: 5px;
   font-size: 16px;
   transition: background-color 0.3s ease;
-
 }
 button:hover {
   background-color: #45a049;
@@ -58,4 +57,15 @@ button:hover {
 button:disabled {
   background-color: #ccc;
   cursor: not-allowed;
+}
+.counter {
+  font-size: 48px;
+  font-weight: bold;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px 40px;
+  margin: 20px auto;
+  border-radius: 12px;
+  width: fit-content;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
